@@ -1,0 +1,137 @@
+<!DOCTYPE html>  
+<html lang="es">
+    <head>
+        <title>Reservacion</title>
+        <meta charset="utf-8"/></meta>
+        <link href="css/styles3.css" rel="stylesheet" type="text/css"></link> 
+        
+    </head>
+    <body>
+        <br><br><br>
+        <div id="Barra">
+            <div class="caja"></div>
+            
+            <div class="caja">
+                <a href= "acercaDe.html">
+                    <div class="textoBoton">Acerca de</div>
+                </a>
+            </div>
+
+            <div class="caja">
+                <a href= "citas.html">
+                    <div class="textoBoton">Agendar citas</div>
+                </a>
+            </div>
+        
+            <div class="caja">
+                <a href= "lugaresTuristicos.html">
+                    <div class="textoBoton">Lugares Turísticos</div>
+                </a>
+            </div>
+
+            <div class="caja">
+                <a href= "reservacion.html">
+                    <div class="textoBoton">Reservaciones</div>
+                </a>
+            </div>
+
+            <div class="caja">
+                <input class="btn" id="b1"type="button" value="Iniciar sesión"></input>
+            </div>
+
+            <div class="caja">            
+                <input class="btn" id="b2" type="button" value="Registrarse"></input>
+            </div>
+        </div>
+
+        <div id="Main">
+            <div class="vacio"></div>
+            <div>
+                <h1>Hacer una reservacion</h1>
+                <form id="nuevaReservacion">
+                    <label for="nombre">Nombre al que se asocia la reservacion: </label>
+                    <input type="text" id="nombres" name="nombres" required="required"></input>
+                    <br><br>
+                    <label for="LugarO">Lugar de salida:</label>
+                    <select>
+                        <option value="AG">Aguascalientes</option>
+                        <option value="BC">Baja California</option>
+                        <option value="BCS">Baja California Sur</option>
+                        <option value="CAM">Campeche</option>
+                        <option value="CHP">Chiapas</option>
+                        <option value="CHI">Chihuahua</option>
+                        <option value="DF">Ciudad de Mexico</option>
+                        <option value="COH">Coahuila</option>
+                        <option value="COL">Colima</option>
+                        <option value="DU">Durango</option>
+                        <option value="ED">Estado de Mexico</option>
+                        <option value="GUJ">Guanajuato</option>
+                        <option value="GUR">Guerrero</option>
+                        <option value="HI">Hidalgo</option>
+                        <option value="JL">Jalisco</option>
+                        <option value="MIC">Michoacan</option>
+                        <option value="MOL">Morelos</option>
+                        <option value="NA">Nayarit</option>
+                        <option value="NL">Nuevo Leon</option>
+                        <option value="OX">Oaxaca</option>
+                        <option value="PB">Puebla</option>
+                        <option value="QE">Queretaro</option>
+                        <option value="QR">Quintana Roo</option>
+                        <option value="SL">San Luis Potosi</option>
+                        <option value="SIN">Sinaloa</option>
+                        <option value="SON">Sonora</option>
+                        <option value="TB">Tabasco</option>
+                        <option value="TM">Tamaulipas</option>
+                        <option value="TX">Tlaxcala</option>
+                        <option value="VC">Veracruz</option>
+                        <option value="YC">Yucatan</option>
+                        <option value="ZC">Zacatecas</option>
+                    </select>
+                    <br><br>
+                    <label for="LugarD">Lugar de destino:</label>
+                    <select>
+                        <option value="AG">Aguascalientes</option>
+                        <option value="BC">Baja California</option>
+                        <option value="BCS">Baja California Sur</option>
+                        <option value="CAM">Campeche</option>
+                        <option value="CHP">Chiapas</option>
+                        <option value="CHI">Chihuahua</option>
+                        <option value="DF">Ciudad de Mexico</option>
+                        <option value="COH">Coahuila</option>
+                        <option value="COL">Colima</option>
+                        <option value="DU">Durango</option>
+                        <option value="ED">Estado de Mexico</option>
+                        <option value="GUJ">Guanajuato</option>
+                        <option value="GUR">Guerrero</option>
+                        <option value="HI">Hidalgo</option>
+                        <option value="JL">Jalisco</option>
+                        <option value="MIC">Michoacan</option>
+                        <option value="MOL">Morelos</option>
+                        <option value="NA">Nayarit</option>
+                        <option value="NL">Nuevo Leon</option>
+                        <option value="OX">Oaxaca</option>
+                        <option value="PB">Puebla</option>
+                        <option value="QE">Queretaro</option>
+                        <option value="QR">Quintana Roo</option>
+                        <option value="SL">San Luis Potosi</option>
+                        <option value="SIN">Sinaloa</option>
+                        <option value="SON">Sonora</option>
+                        <option value="TB">Tabasco</option>
+                        <option value="TM">Tamaulipas</option>
+                        <option value="TX">Tlaxcala</option>
+                        <option value="VC">Veracruz</option>
+                        <option value="YC">Yucatan</option>
+                        <option value="ZC">Zacatecas</option>
+                    </select>
+                    <br><br>
+                    <label for="cantidad">Cantidad a reservar:</label><input type="number" name="cantidad" min="1" max="12" required="required">
+                    <br><br>
+                    <label>Fecha de partida: </label><input type="date" id="Fecha" name="Fecha"><br><br>
+                    <input id="b4" type="submit" value="Reservar">  
+                </form>
+            </div>
+            <div class="vacio"></div>
+        </div>        
+
+    </body>
+</html>

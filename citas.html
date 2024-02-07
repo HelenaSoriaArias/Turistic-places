@@ -1,0 +1,68 @@
+<!DOCTYPE html>  
+<html lang="es">
+    <head>
+        <title>Agendar Citas</title>
+        <meta charset="utf-8"/></meta>
+        <link href="css/styles3.css" rel="stylesheet" type="text/css"></link> 
+        
+    </head>
+    <body>
+        <br><br><br>
+        <div id="Barra">
+            <div class="caja"></div>
+            
+            <div class="caja">
+                <a href= "acercaDe.html">
+                    <div class="textoBoton">Acerca de</div>
+                </a>
+            </div>
+
+            <div class="caja">
+                <a href= "citas.html">
+                    <div class="textoBoton">Agendar citas</div>
+                </a>
+            </div>
+        
+            <div class="caja">
+                <a href= "lugaresTuristicos.html">
+                    <div class="textoBoton">Lugares Turísticos</div>
+                </a>
+            </div>
+
+            <div class="caja">
+                <a href= "reservacion.html">
+                    <div class="textoBoton">Reservaciones</div>
+                </a>
+            </div>
+
+        </div>
+
+        <div id="Main">
+            <div class="vacio"></div>
+            <div>
+                <h1>Agendar una cita</h1>
+                <form id="nuevaCita">
+                    <label for="nombre">Nombre al que se asocia la cita: </label>
+                    <input type="text" id="nombres" name="nombres" required="required"></input>
+                    <br><br>
+                    <label for="Ciudad">Ciudad de residencia:</label>
+                    <input type="text" id="ciudad" name="ciudad" required="required"></input>
+                    <br><br>
+                    <label for="Telefono">Telefono de contacto:</label>
+                    <input type="text" id="telefono" name="telefono" required="required"></input>
+                    <br><br>
+                    <label>Fecha optima de cita: </label><input type="date" id="Fecha" name="Fecha"><br><br>
+                    <label for="Tipo">Tipo de cita:</label>
+                    <select>
+                        <option value="TEL">Telefonica</option>
+                        <option value="PR">Presencial</option>
+                    </select>
+                    <br><br>
+                    <input id="b4" type="submit" value="Agendar">  
+                </form>
+            </div>
+            <div class="vacio"></div>
+        </div>        
+
+    </body>
+</html>

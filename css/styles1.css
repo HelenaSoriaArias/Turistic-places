@@ -1,0 +1,95 @@
+#Barra{
+    display:grid;
+    grid-template-columns:55% 10% 15% 10% 10%;
+    background-color:#ADD8E6; 
+    height:fit-content;
+    padding: 15px;
+}
+
+.caja{
+    position: relative;
+    text-align: center;
+    background-color:#ADD8E6; 
+}
+
+.textoBoton{
+    position: absolute;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 16px;
+}
+
+.btn{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 16px;
+    color: white;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 70px;
+    padding-left:1%;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 20px;
+    padding-left:1%;
+}
+
+.centrar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 40px;
+    text-align:center;
+}
+   
+#imgPrincipal{
+    position:absolute;
+    top:20%;
+    left: 700px;
+}
+
+#Tutorial{
+    background-color: #ADD8E6;
+}
+
+#Pasos{
+    display:grid;
+    gap:30px;
+    grid-template-columns:auto auto auto;
+    background-color:#ADD8E6; 
+    height:fit-content;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#listaBeneficios{
+    display:grid;
+    grid-template-columns:auto auto;
+    padding: 10px;
+    text-align:center;
+    height:fit-content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 20px;
+}
+
+footer{
+    background-color: #ADD8E6;
+}
+
+footer>div{
+    text-align:center
+}
+
+#b3{  
+    width: 125px;
+    height: 50px;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 20px;
+    text-align:center;
+    color: white;
+}

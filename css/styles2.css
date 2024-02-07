@@ -1,0 +1,83 @@
+#Barra{
+    display:grid;
+    grid-template-columns:55% 10% 15% 10% 10%;
+    background-color:#ADD8E6; 
+    height:fit-content;
+    padding: 15px;
+}
+
+.caja{
+    position: relative;
+    text-align: center;
+    background-color:#ADD8E6; 
+}
+
+.textoBoton{
+    position: absolute;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 16px;
+}
+
+.btn{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 16px;
+    color: white;
+}
+
+
+#Main{
+    display:grid;
+    grid-template-columns:20% auto 20% ;
+    padding: 15px;
+    text-align:center;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 70px;
+}
+
+.vacio{
+    background-color: #ADD8E6;
+    height: 150%;
+}
+
+#inicioSesion{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 20px;
+    text-align:center;
+}
+
+
+#b3{
+    width: 125px;
+    height: 50px;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 20px;
+    text-align:center;
+    color: white;
+}
+
+#b4{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 20px;
+    text-align:center;
+    color: white;
+}
+.texto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 16px;
+}
+
+div > p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 20px;
+    line-height: 120%;
+    text-align:justify;
+}

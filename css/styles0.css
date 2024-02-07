@@ -1,0 +1,71 @@
+#Barra{
+    display:grid;
+    grid-template-columns:55% 10% 15% 10% 10%;
+    background-color:#ADD8E6; 
+    height:fit-content;
+    padding: 15px;
+}
+
+.caja1{
+    position: relative;
+    text-align: center;
+    background-color:#ADD8E6; 
+}
+
+.textoBoton{
+    position: absolute;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 16px;
+}
+
+.btn{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 16px;
+    color: white;
+}
+
+#Contenedor{
+    display:grid;
+    grid-template-columns: 20% auto;
+}
+
+.caja2{
+    position: relative;
+}
+
+
+#aside{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 20px;
+    padding-left: 2%;
+    line-height: 30px;
+}
+
+#main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    padding-left: 2%;
+    background-color: #ADD8E6;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 70px;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    color: red;
+}
+
+.post{
+    display:grid;
+    grid-template-columns: auto auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    padding-left: 2%;
+    width: fit-content;
+    height: fit-content;
+    border-right: 10%;
+    background-color:white;
+}
